@@ -1,0 +1,31 @@
+programa
+
+inteiro a, b, c, resultado;
+texto strA, strB, strC, r1, r2, r;
+strA = "Escreva um número (a): ";
+escreva(strA);
+leia(a);
+strB = "Escreva um número (b): ";
+escreva(strB);
+leia(b);
+strC = "Escreva um número (c): ";
+escreva(strC);
+leia(c);
+
+resultado = a + b * c / b;
+r = "Resultado igual a:";
+r1  = "Resultado maior que 10";
+r2  = "Resultado menor que 10";
+  
+se (resultado > 10) {
+	escreva(r);
+	escreva(resultado);
+    escreva (r1);
+}
+senao {
+	escreva(r);
+	escreva(resultado);
+    escreva (r2);
+}
+
+fimprog;
